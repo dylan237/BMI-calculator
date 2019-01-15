@@ -1,0 +1,24 @@
+//樣式更換器 /* nth($bg,$style); */
+$web:           A;
+$main-color:    #424242;
+$hot-color:     #FFD366 ;
+$style: index($web,A);
+
+/* 基本文字顏色 */
+$text-color: #292929;
+/* 文字連結樣式，多則就再新增2、3... */
+$link-color: #000;
+/* 滑鼠拖曳過後的樣式顏色 */
+$link-color-hover: #fff;
+/* 全域字型大小，如一網站有多種就下多種字型 */
+$font-s: 13px;
+$font-m: 16px;
+$font-b: 30px;
+/* 背景色 */
+$bg-color: #000;
+/* 全域行距 */
+$line-height: 1.2;
+/* 網站整體寬度 */
+$wrap-width: 960px;
+/* 全域字型 */
+$font-family: "Microsoft JhengHei","Helvetica Nueue", Arial, Sans Serif;
